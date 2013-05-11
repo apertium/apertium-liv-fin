@@ -1,0 +1,28 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-liv-fin.fin-liv.lrx -text
+/apertium-liv-fin.fin-liv.rlx -text
+/apertium-liv-fin.fin-liv.t1x -text
+/apertium-liv-fin.fin-liv.t2x -text
+/apertium-liv-fin.fin-liv.t3x -text
+/apertium-liv-fin.fin.lexc -text
+/apertium-liv-fin.fin.twol -text
+/apertium-liv-fin.liv-fin.dix -text
+/apertium-liv-fin.liv-fin.lrx -text
+/apertium-liv-fin.liv-fin.rlx -text
+/apertium-liv-fin.liv-fin.t1x -text
+/apertium-liv-fin.liv-fin.t2x -text
+/apertium-liv-fin.liv-fin.t3x -text
+/apertium-liv-fin.liv.lexc -text
+/apertium-liv-fin.liv.twol -text
+/autogen.sh -text
+/configure.ac -text
+/fin-liv.prob -text svneol=unset#unset
+/liv-fin.prob -text svneol=unset#unset
+/modes.xml -text
+texts/vixen.liv.txt -text
