@@ -25,4 +25,5 @@
 /fin-liv.prob -text svneol=unset#unset
 /liv-fin.prob -text svneol=unset#unset
 /modes.xml -text
+texts/vixen.fin.txt -text
 texts/vixen.liv.txt -text
