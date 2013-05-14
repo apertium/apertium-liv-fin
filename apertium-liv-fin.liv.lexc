@@ -7,10 +7,6 @@ LEXICON Root
 
 Nouns ; 
 
-LEXICON N1
-
-%<n%>: # ;
-
 LEXICON Nouns
 
 piʼņ N_PIʼŅ ; ! ""
@@ -97,9 +93,16 @@ okš N_OKŠ ; ! ""
 pit N_KEP ; ! ""
 meʼž N_VEʼŽ ; ! ""
 kūona N_KĒRA ; ! ""
-plädīņ N1 ; ! ""
+plädīņ N_PŪOL ; ! ""
 īrgandõks N_KĒRATÕKS ; ! ""
 vȭidag N_VȬIDAG ; ! ""
+
+
+LEXICON N1
+
+%<n%>: # ;
+
+
 
 
 
