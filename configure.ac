@@ -69,6 +69,6 @@ then
   AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
-
