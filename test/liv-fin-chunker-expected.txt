@@ -1,0 +1,8 @@
+[EcQ1BpCjAAKk#0] ^default<default>{^@°C<n><acr><tyä><n><prop>$}$
+[/EcQ1BpCjAAKk]
+[QbgF6nrAFOI1#0] ^default<default>{^@;<clb>$}$
+[/QbgF6nrAFOI1]
+[T4hlq-3b-rN1#0] ^default<default>{^@•<punct>$}$
+[/T4hlq-3b-rN1]
+[YtGuNiAKhOr1#0] ^default<default>{^@äb<v><neg><act><jus><sg3>$}$
+[/YtGuNiAKhOr1]

@@ -1,0 +1,10 @@
+{
+    "fin-liv": {
+        "input": "fin-liv-input.txt",
+        "mode": "fin-liv"
+    },
+    "liv-fin": {
+        "input": "liv-fin-input.txt",
+        "mode": "liv-fin"
+    }
+}
