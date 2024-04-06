@@ -10,7 +10,6 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
 TARGETS_DIR1 =		\
-	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).mor.rlx.bin  \
 	$(PREFIX1).syn.rlx.bin  \
@@ -22,6 +21,7 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin
 
+#	$(PREFIX1).prob		
 TRIMMED_TARGETS_DIR1 = \
 	$(PREFIX1).automorf.hfst
 
@@ -29,7 +29,6 @@ UNTRIMMED_TARGETS_DIR1 = \
 	$(PREFIX1).automorf-untrimmed.hfst
 
 TARGETS_DIR2 =		\
-	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
@@ -39,6 +38,7 @@ TARGETS_DIR2 =		\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin
 
+#	$(PREFIX2).prob		
 TRIMMED_TARGETS_DIR2 = \
 	$(PREFIX2).automorf.bin
 
