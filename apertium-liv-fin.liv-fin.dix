@@ -1,12 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet/>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAāĀbBcCčČdDḑḐeEēĒfFgGģĢhHiIīĪjJkKķĶlLļĻmMnNņŅoOōŌõÕǫǪȯȮpPqQrRŗŖsSšŠtTțȚŢuUūŪüäÄǟǞʼüÜöÖǖǕǭǬvVwWxXyYzZžŽȭȬåÅå̄Å̄</alphabet>
   <sdefs>
-    <sdef n="n"  c="Имя существительное"/>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="NOUN"/>
+    <sdef n="np"              c="PROPN"/>
+    <sdef n="vblex"           c="VERB"/>
+    <sdef n="vaux"            c="AUX"/>
+    <sdef n="cnjsub"          c="SCONJ"/>
+    <sdef n="cnjcoo"          c="CCONJ"/>
+    <sdef n="cnjadv"          c="ADVCONJ"/>
+    <sdef n="post"            c="ADP"/>
+    <sdef n="pr"            c="ADP"/>
+    <sdef n="adv"             c="ADV"/>
+    <sdef n="ij"              c="INTJ"/>
+    <sdef n="adj"             c="ADJ"/>
+    <sdef n="prn"             c="PRON"/>
+    <sdef n="punct"           c="PUNCT"/>
+    <sdef n="det"             c="DET"/>
+    <sdef n="x"               c="X"/>
+    <sdef n="sym"             c="SYM"/>
+    <sdef n="num"             c="NUM"/>
+
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="Person=1"/>
+    <sdef n="p2"              c="Person=2"/>
+    <sdef n="p3"              c="Person=3"/>
+
+    <sdef n="px1sg"              c="Person[psor]=1"/>
+    <sdef n="px2sg"              c="Person[psor]=2"/>
+    <sdef n="px3sp"              c="Person[psor]=3"/>
+
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+
+    <sdef n="sg"              c="Number=Sing"/>
+    <sdef n="du"              c="Number=Dual"/>
+    <sdef n="pl"              c="Number=Plur"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Case=Nom"/>
+    <sdef n="acc"             c="Case=Acc"/>
+    <sdef n="gen"             c="Case=Gen"/>
+    <sdef n="ill"             c="Case=Ill"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="refl"            c="Reflex=Yes"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+    <sdef n="use_blacklist"   c="apertium-fin hacks"/>
+    <sdef n="enc"   c="apertium-fin hacks"/>
   </sdefs>
   <section id="main" type="standard">
-    <!-- Раздел: Имя Существительное -->
+    <!-- Section: Adjectives -->
 
-    <e><p><l>piņ<s n="n"/></l><r>koira<s n="n"/></r></p></e>
+        <e r="LR"><p><l>laintlimi<s n="adj"/></l><r>aallokas<s n="adj"/></r></p></e>
+        <e><p><l>ūomõgi<s n="adj"/></l><r>aamuinen<s n="adj"/></r></p></e>
+        <e><p><l>nēļatuoistõnz<s n="adj"/></l><r>neljästoista<s n="adj"/></r></p></e>
+
+    
+    <!-- Section: Adverbs -->
+
+        <e r="LR"><p><l>mīelõ<s n="adv"/></l><r>naimisiin<s n="adv"/></r></p></e>
+
+    
+    <!-- Section: Nouns -->
+
+        <e><p><l>dillõd<s n="n"/></l><r>tilli<s n="n"/></r></p></e>
+        <e r="LR"><p><l>kalā<s n="n"/></l><r>kala<s n="n"/></r></p></e>
+        <e><p><l>kuoignanā<s n="n"/></l><r>keula<s n="n"/></r></p></e>
+        <e><p><l>kōj<s n="n"/></l><r>lusikka<s n="n"/></r></p></e>
+        <e r="LR"><p><l>kūpimdõm<s n="n"/></l><r>kuunpimennys<s n="n"/></r></p></e>
+        <e><p><l>kūzõ<s n="n"/></l><r>kuusi<s n="n"/></r></p></e>
+        <e r="LR"><p><l>laint<s n="n"/></l><r>aalto<s n="n"/></r></p></e>
+        <e r="LR"><p><l>läpš<s n="n"/></l><r>lapsi<s n="n"/></r></p></e>
+        <e r="LR"><p><l>okš<s n="n"/></l><r>karhu<s n="n"/></r></p></e>
+        <e><p><l>piņ<s n="n"/></l><r>koira<s n="n"/></r></p></e>
+        <e r="LR"><p><l>piņ<s n="n"/></l><r>koira<s n="n"/></r></p></e>
+        <e><p><l>rangõrōdad<s n="n"/></l><r>kuolaimet<s n="n"/></r></p></e>
+	
+   <!-- Section: Numerals -->
+	
+        <e><p><l>kakš<s n="num"/></l><r>kaksi<s n="num"/></r></p></e>
+        <e r="LR"><p><l>kuolm<s n="num"/></l><r>kolme<s n="num"/></r></p></e>
+        <e><p><l>kūž<s n="num"/></l><r>kuusi<s n="num"/></r></p></e>
+        <e><p><l>tūontõ<s n="num"/></l><r>tuhat<s n="num"/></r></p></e>
+	
+   <!-- Section: Pronouns -->
+	
+        <e><p><l>kis<s n="prn"/></l><r>kuka<s n="prn"/></r></p></e>
+
+   
+   <!-- Section: Verbs -->
+	
+        <e><p><l>lȭtstõ<s n="vblex"/></l><r>huohottaa<s n="vblex"/></r></p></e>
+
+
+    <!-- Section: Punctuation -->
+    
+    <e><p><l>-<s n="punct"/></l><r>-<s n="punct"/></r></p></e>
+    <e><p><l>–<s n="punct"/></l><r>–<s n="punct"/></r></p></e>
+    <e><p><l>.<s n="punct"/></l><r>.<s n="punct"/></r></p></e>
+    <e><p><l>!<s n="punct"/></l><r>!<s n="punct"/></r></p></e>
+    <e><p><l>?<s n="punct"/></l><r>?<s n="punct"/></r></p></e>
+    <e><p><l>..<s n="punct"/></l><r>..<s n="punct"/></r></p></e>
+    <e><p><l>,<s n="punct"/></l><r>,<s n="punct"/></r></p></e>
+    <e><p><l>:<s n="punct"/></l><r>:<s n="punct"/></r></p></e>
+    <e><p><l>(<s n="punct"/></l><r>(<s n="punct"/></r></p></e>
+    <e><p><l>)<s n="punct"/></l><r>)<s n="punct"/></r></p></e>
+    <e><p><l>”<s n="punct"/></l><r>”<s n="punct"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="punct"/></r></p></e>
+    <e><p><l>”<s n="punct"/></l><r>“<s n="punct"/></r></p></e>
+    <e><p><l>»<s n="punct"/></l><r>»<s n="punct"/></r></p></e>
+
+    <e><p><l>%<s n="sym"/></l><r>%<s n="sym"/></r></p></e>
 
   </section>
 </dictionary>
