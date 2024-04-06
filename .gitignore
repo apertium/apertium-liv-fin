@@ -14,6 +14,7 @@
 /missing
 /modes
 /*.mode
+/*.prob
 /.bak
 /.deps
 /config.in
